@@ -1,4 +1,4 @@
-const AddBtn = document.querySelector("#addTask")
+const addBtn = document.querySelector("#addTask")
 const input = document.querySelector("#todos")
 const tasksContainer = document.querySelector("#tasks-container")
 const tickBox = document.querySelector("#tickBox")
@@ -40,10 +40,10 @@ reset = () => {
     tasksContainer.innerHTML = ''
 }
 
-AddBtn.addEventListener('click', addTask())
-resetBtn.addEventListener('click', reset())
-tickBox.addEventListener('click', markAsDone())
-deleteBtn.addEventListener('click', deleteTasks())
-edit.addEventListener('click', edit())
+addBtn.addEventListener('click', addTask)
+resetBtn.addEventListener('click', reset)
+tickBox.addEventListener('click', markAsDone)
+deleteBtn.addEventListener('click', deleteTasks)
+edit.addEventListener('click', edit)
 
-//event listeners are executing on page load, not on click. No idea why.
+//event listeners are not working on icons
