@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css"/>   
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h3>MyTodos</h3>
+        <button>Reset</button>
+    </header>
+    <main>
+        <h1>Welcome Back Jake!</h1>
+        <p>Let's enter the tasks we need to complete for this upcoming week. Just use the input below to create a todo</p>
+        <div id="todos">
+            <input type="text" value="Add your task here..."></input>
+            <span class="iconify" id="addTask" data-icon="mdi-light:plus-circle"></span>            
+        </div>       
+        <div id="lower">
+            <h4>Tasks</h4>
+        <section id="tasks-container">
+
+        </section>
+            <p id="feedback">All tasks have been completed. Great Job!</p>
+        </div>        
+    </main>
+    <footer id="footer">        
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

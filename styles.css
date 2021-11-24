@@ -1,0 +1,82 @@
+body {
+  background-color: #232229;
+  font-family: Jost;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+main {
+  margin: auto;
+  width: 50%;
+}
+
+.iconify {
+  color: #E58181;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  padding: 5px;
+}
+
+button {
+  background-image: linear-gradient(180deg, #e1a0a0, #E58181);
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 16px;
+  height: 50px;
+  width: 120px;
+  border-radius: 5px;
+  border: 0px;
+  box-shadow: 0 10px 40px #6B3838;
+}
+
+button:hover {
+  background-image: linear-gradient(180deg, #E2C1C1, #E58181);
+}
+
+h3, h4 {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: medium;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 48px;
+  font-style: Semi-bold;
+}
+
+p {
+  color: #6C6A7C;
+  font-size: 16px;
+  font-weight: regular;
+}
+
+#todos {
+  border-radius: 5px;
+  border: 1px dashed #6C6A7C;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #2B2A33;
+  color: #6C6A7C;
+  width: 90%;
+  height: 50px;
+}
+
+input {
+  background-color: #2B2A33;
+  border: 0px;
+  color: #6C6A7C;
+  width: 95%;
+  height: 95%;
+}
+
+section {
+  background-color: #2B2A33;
+}
